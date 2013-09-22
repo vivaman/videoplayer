@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/tui_ic_mediacontrol_pause_focus" android:state_focused="true"/>
+    <item android:drawable="@drawable/tui_ic_mediacontrol_pause_normal"/>
+
+</selector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">player</string>
+    <string name="mediacontroller_play_pause">播放/暂停</string>
+    <string name="loading_video">加载中 ...</string>
+	<string name="replaying_title">重新播放</string>
+	<string name="replaying_message">重新播放?</string>
+	<string name="details_confirm">确定</string>
+	<string name="details_cancel">取消</string>
+	<string name="play_finish">播放结束</string>
+
+</resources>

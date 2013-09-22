@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="MediaController_SeekBar">
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+        <item name="android:progressDrawable">@drawable/media_tui_progressbar</item>
+        <item name="android:thumb">@drawable/tui_ic_mediacontrol_indicator</item>
+    </style>
+
+    <style name="MediaController_Text">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="Animationleftright">
+    	<item name="android:windowEnterAnimation">@anim/in_lefttoright</item>
+    	<item name="android:windowExitAnimation">@anim/out_righttoleft</item>     
+	</style>
+	
+    <style name="Animationbottomtop">
+    	<item name="android:windowEnterAnimation">@anim/in_bottomtotop</item>
+    	<item name="android:windowExitAnimation">@anim/out_toptobottom</item>     
+	</style>
+	
+    <style name="dialog" parent="@android:style/Theme.Dialog">  <!-- 在系统Dialog样式基础上，相当于继承系统样式 -->
+        <item name="android:windowFrame">@null</item>  <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>  <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>  <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>  <!-- 是否显示title -->
+        <!-- <item name="android:windowBackground">@drawable/dia_bg</item> --> <!-- 设置dialog的背景 -->
+        <item name="android:backgroundDimEnabled">false</item>  <!-- 背景是否模糊显示 -->
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">player</string>
+    <string name="mediacontroller_play_pause">Play/Pause</string>
+    <string name="loading_video">Loading video ...</string>
+	<string name="replaying_title">Replay video</string>
+	<string name="replaying_message">Replaying the video ?</string>
+	<string name="details_confirm">Confirm</string>
+	<string name="details_cancel">Cancel</string>
+	<string name="play_finish">Device ejected, video finish</string>
+
+</resources>
