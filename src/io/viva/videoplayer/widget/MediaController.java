@@ -419,9 +419,9 @@ public class MediaController extends FrameLayout {
 			return;
 
 		if (mPlayer.isPlaying())
-			mPauseButton.setImageResource(R.drawable.tui_ic_mediacontrol_pause);
+			mPauseButton.setImageResource(R.drawable.tui_ic_mediacontroller_pause);
 		else
-			mPauseButton.setImageResource(R.drawable.tui_ic_mediacontrol_play);
+			mPauseButton.setImageResource(R.drawable.tui_ic_mediacontroller_play);
 	}
 
 	private void doPauseResume() {

@@ -46,13 +46,14 @@
                 android:maxHeight="40.0dip"
                 android:minWidth="40.0dip"
                 android:progressDrawable="@drawable/media_tui_progressbar"
-                android:thumb="@drawable/tui_ic_mediacontrol_indicator"
+                android:thumb="@drawable/tui_ic_mediacontroller_indicator"
                 android:thumbOffset="11dip" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp" >
 
             <ImageButton
                 android:id="@+id/mediacontroller_play_pause"

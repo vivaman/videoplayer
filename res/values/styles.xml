@@ -5,7 +5,7 @@
         <item name="android:minHeight">16dip</item>
         <item name="android:maxHeight">16dip</item>
         <item name="android:progressDrawable">@drawable/media_tui_progressbar</item>
-        <item name="android:thumb">@drawable/tui_ic_mediacontrol_indicator</item>
+        <item name="android:thumb">@drawable/tui_ic_mediacontroller_indicator</item>
     </style>
 
     <style name="MediaController_Text">
