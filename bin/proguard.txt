@@ -1,9 +1,0 @@
-# view AndroidManifest.xml #generated:17
--keep class io.viva.videoplayer.PlayerActivity { <init>(...); }
-
-# view res/layout/videoview.xml #generated:8
--keep class io.viva.videoplayer.widget.CenterLayout { <init>(...); }
-
-# view res/layout/videoview.xml #generated:13
--keep class io.viva.videoplayer.widget.VideoView { <init>(...); }
-
